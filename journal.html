@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fragrance Journal | Aroma Luxe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="brand"><svg viewBox="0 0 80 100">
+                <rect x="28" y="2" width="24" height="14" rx="3" fill="none" stroke="#e6c778" stroke-width="2.5" />
+                <rect x="35" y="16" width="10" height="8" fill="none" stroke="#e6c778" stroke-width="2.5" />
+                <rect x="6" y="24" width="68" height="72" rx="14" fill="none" stroke="#e6c778" stroke-width="2.5" />
+                <text x="40" y="74" font-family="Cormorant Garamond,Georgia,serif" font-size="40" text-anchor="middle"
+                    fill="#e6c778" font-weight="600">AL</text>
+            </svg>
+            <h2>Aroma Luxe</h2>
+            <p>Exclusive Parfumerie</p>
+        </div>
+        <nav class="nav">
+            <a href="index.html"><svg viewBox="0 0 24 24">
+                    <path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" />
+                </svg>Home</a>
+            <a href="shop.html"><svg viewBox="0 0 24 24">
+                    <circle cx="9" cy="20" r="1.5" />
+                    <circle cx="18" cy="20" r="1.5" />
+                    <path d="M2 3h3l2.5 12h11l2-8H6" />
+                </svg>Shop</a>
+            <a href="scents.html"><svg viewBox="0 0 24 24">
+                    <path d="M9 3h6v3H9z" />
+                    <path d="M12 6v3" />
+                    <circle cx="12" cy="15" r="6" />
+                </svg>Our Scents</a>
+            <a href="bestsellers.html"><svg viewBox="0 0 24 24">
+                    <path d="M3 8l4 4 5-7 5 7 4-4-2 11H5z" />
+                </svg>Best Sellers</a>
+            <a href="promotions.html"><svg viewBox="0 0 24 24">
+                    <path d="M3 12V4h8l10 10-8 8z" />
+                    <circle cx="7.5" cy="8.5" r="1.3" />
+                </svg>Promotions</a>
+            <a href="journal.html" class="active"><svg viewBox="0 0 24 24">
+                    <path d="M6 2h9l4 4v16H6z" />
+                    <path d="M14 2v5h5" />
+                </svg>Fragrance Journal</a>
+            <a href="contact.html"><svg viewBox="0 0 24 24">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="M3 7l9 7 9-7" />
+                </svg>Contact Us</a>
+        </nav>
+        <div class="social"><a href="#" aria-label="GitHub">GH</a><a href="#" aria-label="LinkedIn">in</a><a href="#"
+                aria-label="Instagram">IG</a><a href="#" aria-label="YouTube">YT</a></div>
+    </aside>
+    <main class="main">
+        <div class="topbar">
+            <button class="burger" id="burger" aria-label="Menu">☰</button>
+            <div class="chip">📓 Fragrance Journal</div>
+            <button class="theme" id="theme" aria-label="Ganti tema">☀️</button>
+        </div>
+        <div class="page-head">
+            <h1>Fragrance Journal</h1>
+            <p>Cerita, tips, dan wawasan dari dunia parfum.</p>
+        </div>
+        <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(290px,1fr))">
+            <article class="card post">
+                <div class="pimg"><img src="images/journal/personality.svg" alt="Cara Memilih Parfum Sesuai Kepribadian"
+                        loading="lazy"></div><time>12 Nov 2026</time>
+                <h3>Cara Memilih Parfum Sesuai Kepribadian</h3>
+                <p>Kenali top, heart, dan base note agar menemukan aroma yang benar-benar cocok.</p><a class="link"
+                    href="#" data-read>Baca selengkapnya →</a>
+                <div class="full" hidden data-img="images/journal/personality.svg">
+                    <p>Memilih parfum bukan soal mengikuti tren, melainkan menemukan aroma yang terasa seperti dirimu.
+                        Mulailah dengan memahami struktur parfum: top note adalah kesan pertama yang muncul 5–15 menit
+                        awal, heart note adalah karakter utama yang bertahan beberapa jam, dan base note adalah jejak
+                        akhir yang menetap paling lama.</p>
+                    <p>Orang yang ceria dan aktif biasanya cocok dengan aroma citrus atau fresh. Pribadi yang tenang dan
+                        romantis sering menyukai floral lembut seperti mawar dan peony. Sementara karakter tegas dan
+                        berkelas cenderung nyaman dengan woody atau oriental seperti cedar, amber, dan oud.</p>
+                    <p>Selalu coba parfum di kulit, bukan hanya di kertas tester. Tunggu minimal 30 menit agar aroma
+                        berkembang sebelum memutuskan. Kimia kulit setiap orang berbeda, jadi aroma yang sama bisa
+                        terasa berbeda pada dua orang.</p>
+                </div>
+            </article>
+            <article class="card post">
+                <div class="pimg"><img src="images/journal/spray.svg" alt="Tips Membuat Aroma Tahan Seharian"
+                        loading="lazy"></div><time>04 Nov 2026</time>
+                <h3>Tips Membuat Aroma Tahan Seharian</h3>
+                <p>Semprot di titik nadi, lembapkan kulit, dan hindari menggosok pergelangan tangan.</p><a class="link"
+                    href="#" data-read>Baca selengkapnya →</a>
+                <div class="full" hidden data-img="images/journal/spray.svg">
+                    <p>Kulit yang kering membuat parfum cepat menguap. Oleskan lotion tanpa aroma atau petroleum jelly
+                        tipis sebelum menyemprotkan parfum agar aroma menempel lebih lama.</p>
+                    <p>Semprotkan pada titik nadi seperti pergelangan tangan, leher, dan belakang telinga. Area ini
+                        hangat sehingga membantu aroma menyebar dengan lembut sepanjang hari.</p>
+                    <p>Hindari menggosokkan kedua pergelangan tangan setelah menyemprot. Gesekan merusak molekul top
+                        note dan membuat aroma cepat pudar. Biarkan mengering secara alami. Simpan parfum di tempat
+                        sejuk dan gelap, jauh dari sinar matahari langsung.</p>
+                </div>
+            </article>
+            <article class="card post">
+                <div class="pimg"><img src="images/journal/oud.svg" alt="Mengenal Oud: Emas Cair dari Timur"
+                        loading="lazy"></div><time>28 Okt 2026</time>
+                <h3>Mengenal Oud: Emas Cair dari Timur</h3>
+                <p>Sejarah dan karakter oud yang menjadikannya bahan paling berharga di dunia parfum.</p><a class="link"
+                    href="#" data-read>Baca selengkapnya →</a>
+                <div class="full" hidden data-img="images/journal/oud.svg">
+                    <p>Oud, atau agarwood, berasal dari pohon Aquilaria yang terinfeksi jamur tertentu. Sebagai respons,
+                        pohon menghasilkan resin gelap yang harum. Prosesnya bisa memakan puluhan tahun, itulah mengapa
+                        oud dijuluki emas cair.</p>
+                    <p>Aromanya kompleks: hangat, berkayu, sedikit manis, dengan sentuhan asap dan kulit. Di Timur
+                        Tengah dan Asia, oud telah dipakai selama ribuan tahun untuk ritual, dupa, dan parfum kelas
+                        atas.</p>
+                    <p>Dalam parfum modern, oud sering dipadukan dengan mawar, saffron, atau vanila agar lebih lembut
+                        dan mudah dinikmati. Cobalah semprot tipis, karena oud berkarakter kuat dan tahan sangat lama.
+                    </p>
+                </div>
+            </article>
+            <article class="card post">
+                <div class="pimg"><img src="images/journal/gift.svg" alt="Panduan Hadiah Parfum untuk Orang Tersayang"
+                        loading="lazy"></div><time>15 Okt 2026</time>
+                <h3>Panduan Hadiah Parfum untuk Orang Tersayang</h3>
+                <p>Ide hadiah berdasarkan keluarga aroma dan momen spesial.</p><a class="link" href="#" data-read>Baca
+                    selengkapnya →</a>
+                <div class="full" hidden data-img="images/journal/gift.svg">
+                    <p>Memberi parfum adalah hadiah personal yang berkesan. Perhatikan aroma yang biasa dipakai
+                        penerima, lalu pilih yang sefamili namun sedikit berbeda agar terasa baru tetapi tetap cocok.
+                    </p>
+                    <p>Untuk pasangan, pilih aroma hangat dan romantis seperti amber atau floral. Untuk sahabat, citrus
+                        atau fresh memberi kesan ceria. Untuk orang tua atau atasan, woody yang klasik dan elegan adalah
+                        pilihan aman.</p>
+                    <p>Jika ragu, pilih set miniatur agar penerima bisa mencoba beberapa aroma. Tambahkan kartu ucapan
+                        tulisan tangan untuk sentuhan akhir yang istimewa.</p>
+                </div>
+            </article>
+        </div>
+        <footer>© 2026 Aroma Luxe — Exclusive Parfumerie. All rights reserved.</footer>
+    </main>
+</body>
+
+</html>
